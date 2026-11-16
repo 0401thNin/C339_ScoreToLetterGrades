@@ -1,0 +1,14 @@
+name: Student Information Actions
+
+on: push
+
+jobs:
+  display:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Student Information
+        run: |
+          echo "Name: Hnin"
+          echo "C339 Software Testing and Analytics."
+          echo "My GitHub Actions workflow is running automatically."
